@@ -1,0 +1,109 @@
+form {padding: 0; margin: 0;}
+table {width: 98%;border: none;}
+th {padding: 10px;border: none;}
+td {padding: 10px;border: none;}
+tr.tabel {}
+tr.tabel:hover {background: #fffbd9; color: #000; text-shadow: 0px 1px #fff;}
+tr.keterangan {background: #f9f9f9; color: #7f7f7f; text-shadow: 0px 1px #fff; font-style: italic;}
+
+table.tabel {
+	margin: 10px;
+	border-collapse: collapse;
+	font-size: 12px;
+	border-bottom: 1px solid #dcdcdc;
+}
+th.tabel {
+	background: #f4f4f4;
+	font-size: 14px;
+	border-top: 1px solid #dcdcdc;
+	text-shadow: 0px 1px #fff;
+}
+th.tabel a {
+	color: #5b5b5b;
+}
+th.tabel a:hover {
+	color: #000;
+}
+td.tabel {
+	border-top: 1px solid #dcdcdc;
+}
+td.tabel img{padding: 3px; background: #fff; -moz-box-shadow: 0px 0px 5px #5b5b5b;-webkit-box-shadow: 0px 0px 5px #5b5b5b;}
+
+.hlmn a{
+	padding: 3px 5px 3px 5px;
+	float: left;
+	margin: 5px 5px 0 0;
+	border: 1px solid #dcdcdc;
+	background: url(img/white.jpg) repeat left center;
+	text-shadow: 0px 1px #fff;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.hlmn a:hover,.oke a {border: 1px solid #5b5b5b; color: #5b5b5b;}
+
+.pg-normal {
+	padding: 3px 5px 3px 5px;
+	margin: 5px 1.5px 0 1.5px;
+	border: 1px solid #dcdcdc;
+	background: url(img/white.jpg) repeat left center;
+	text-shadow: 0px 1px #fff;
+	color: #006cff;
+	cursor: pointer;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.pg-selected {
+	padding: 3px 5px 3px 5px;
+	margin: 5px 1.5px 0 1.5px;
+	border: 1px solid #5b5b5b; color: #5b5b5b;
+	background: url(img/white.jpg) repeat left center;
+	text-shadow: 0px 1px #fff;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;	
+}
+table.isian {
+	border:none;
+	margin:40px 10px 10px 10px;
+	border-collapse: collapse;
+	font-size: 12px;
+}
+td.isian {
+	border: none;
+}
+td.isiankanan {
+	border: none;
+	font-weight: bold;
+	color: #000;
+}
+
+.hapusdata a{padding: 2px 4px 2px 4px; background: #ff0000; color: #fff; display: block; float: left; margin: 0 5px 0 0;text-shadow: none;
+	-webkit-border-radius:5px; 
+	-moz-border-radius:5px;
+	-o-border-radius:5px; 
+	-khtml-border-radius:5px;
+	border-radius:5px;
+}
+.editdata a{padding: 2px 4px 2px 4px; background: #006cff; color: #fff; display: block; float: left; margin: 0 5px 0 0;text-shadow: none;
+	-webkit-border-radius:5px; 
+	-moz-border-radius:5px;
+	-o-border-radius:5px; 
+	-khtml-border-radius:5px;
+	border-radius:5px;
+}
+.terbitdata a{padding: 2px 4px 2px 4px; background: #037f00; color: #fff; display: block; float: left; margin: 0 5px 0 0;text-shadow: none;
+	-webkit-border-radius:5px; 
+	-moz-border-radius:5px;
+	-o-border-radius:5px; 
+	-khtml-border-radius:5px;
+	border-radius:5px;
+}
+.bataldata a{padding: 2px 4px 2px 4px; background: #ff6600; color: #fff; display: block; float: left; margin: 0 5px 0 0;text-shadow: none;
+	-webkit-border-radius:5px; 
+	-moz-border-radius:5px;
+	-o-border-radius:5px; 
+	-khtml-border-radius:5px;
+	border-radius:5px;
+}

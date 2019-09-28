@@ -1,0 +1,428 @@
+
+@import url(tabel.css);
+@import url(form.css);
+
+body {
+	background: #fff;
+	font-size: 12px;
+	color: #5b5b5b;
+	font-family: Arial;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+		/*pengaturan secara keseluruhan*/
+		.clear {clear:both;}
+		a {color: #0066ff; text-decoration: none;}
+		a:hover {color: #000;}
+		img {border: none;}
+		hr {border: 0; color: #dcdcdc; background-color: #dcdcdc; height: 1px;}
+
+#wrapper {
+	width: 100%;
+	text-align: left;
+	margin: auto;
+}
+
+
+/*Pengaturan pada bagian atas/ header */
+#atas {
+	width: 100%;
+	height: 50px;
+	float: center;
+	background: url(img/top_repeat.jpg) repeat-x;
+	position: fixed;
+	min-width: 1004px;
+	-moz-box-shadow: 0px 0px 10px #5b5b5b;
+	-webkit-box-shadow: 0px 0px 10px #5b5b5b;
+}
+	.logo a{
+		height: 50px;
+		float: left;
+		margin: 0;
+		width: 200px;
+		border-right: 1px solid #fff;
+	}
+	.front a{
+		float: left;
+		margin: 0;
+		border-right: 1px solid #fff;
+		padding: 17px;
+		font-weight: bold;
+	}
+	.front a:hover{
+		text-decoration: underline;
+	}
+	#admin {
+		float: right;
+		margin: 0 20px 0 0;
+		padding: 20px 40px 20px 20px;
+		color: #5b5b5b;
+		background:#e6f4ff url(img/user.png) no-repeat right center;
+		text-shadow: 0px 1px #fff;
+		border: 1px solid #a7d7ff;
+		-moz-border-radius: 6px;
+		-webkit-border-radius: 6px;
+	}
+	#admin a {text-decoration: none; color: #0066ff;}
+	#admin a:hover  {color : #000;}
+
+/* id untuk konten secara keseluruhan kecuali header */
+#konten {
+	width: 100%;
+	min-width: 1004px;
+	border: 0px solid #dcdcdc;
+	float: left;
+	background: #fff url(img/bg_side.jpg) repeat-y;
+	margin-top: 50px;
+}
+	#konten h3 {font-size: 18px; padding: 10px 10px 10px 0; margin: 0 3% 0 2%; border-bottom: 1px solid #dcdcdc;}
+
+/*Bagian utama menu sebelah kiri (sidebar) */
+#samping {
+	width: 200px;
+	float: left;
+	border-bottom: 0px solid #ff0000;
+	padding: 10px 0 175px 0;
+	
+	
+}
+
+/* Untuk pengaturan menu */
+.menu{
+	width: 200px;
+	float: left; 
+	background: url(img/white.jpg) repeat left center; 
+	border-bottom: 1px solid #dcdcdc;
+	text-decoration: none;
+	font-size: 13px;
+	text-shadow: 0px 1px #fff;
+}
+.menu a:hover{
+	background: url(img/hover.png) repeat left center;
+}
+/*menu Dashboard*/
+.isimenuHome a{width: 150px; padding: 10px 10px 10px 25px;margin-left: 15px;background:url(img/home.png) no-repeat left center;float: left;text-decoration: none;color: #2e2e2e;}
+.isimenuHome a:hover{text-shadow: 0px 0px 3px #dcdcdc;color: #0066ff;background:url(img/home.png) no-repeat left center;}
+
+/*menu Berita*/
+.isimenuBerita a{width: 150px; padding: 10px 10px 10px 25px;margin-left: 15px;background:url(img/news.png) no-repeat left center;float: left;text-decoration: none;color: #2e2e2e;}
+.isimenuBerita a:hover {text-shadow: 0px 0px 3px #dcdcdc;color: #0066ff;background:url(img/news.png) no-repeat left center;}
+
+/*menu Informasi*/
+.isimenuInformasi a{width: 150px; padding: 10px 10px 10px 25px;margin-left: 15px;background:url(img/informasi.png) no-repeat left center;float: left;text-decoration: none;color: #2e2e2e;}
+.isimenuInformasi a:hover {text-shadow: 0px 0px 3px #dcdcdc;color: #0066ff;background:url(img/informasi.png) no-repeat left center;}
+
+/*menu Guru*/
+.isimenuGuru a{width: 150px; padding: 10px 10px 10px 25px;margin-left: 15px;background:url(img/guru.png) no-repeat left center;float: left;text-decoration: none;color: #2e2e2e;}
+.isimenuGuru a:hover {text-shadow: 0px 0px 3px #dcdcdc;color: #0066ff;background:url(img/guru.png) no-repeat left center;}
+
+/*menu Kelas*/
+.isimenuKelas a{width: 150px; padding: 10px 10px 10px 25px;margin-left: 15px;background:url(img/kelas.png) no-repeat left center;float: left;text-decoration: none;color: #2e2e2e;}
+.isimenuKelas a:hover {text-shadow: 0px 0px 3px #dcdcdc;color: #0066ff;background:url(img/kelas.png) no-repeat left center;}
+
+/*menu Siswa*/
+.isimenuSiswa a{width: 150px; padding: 10px 10px 10px 25px;margin-left: 15px;background:url(img/siswa.png) no-repeat left center;float: left;text-decoration: none;color: #2e2e2e;}
+.isimenuSiswa a:hover {text-shadow: 0px 0px 3px #dcdcdc;color: #0066ff;background:url(img/siswa.png) no-repeat left center;}
+
+/*menu Mapel*/
+.isimenuMapel a{width: 150px; padding: 10px 10px 10px 25px;margin-left: 15px;background:url(img/mapel.png) no-repeat left center;float: left;text-decoration: none;color: #2e2e2e;}
+.isimenuMapel a:hover {text-shadow: 0px 0px 3px #dcdcdc;color: #0066ff;background:url(img/mapel.png) no-repeat left center;}
+
+/*menu PSB*/
+.isimenuPSB a{width: 150px; padding: 10px 10px 10px 25px;margin-left: 15px;background:url(img/psb.png) no-repeat left center;float: left;text-decoration: none;color: #2e2e2e;}
+.isimenuPSB a:hover {text-shadow: 0px 0px 3px #dcdcdc;color: #0066ff;background:url(img/psb.png) no-repeat left center;}
+
+/*menu Album Galeri*/
+.isimenuAlbum a{width: 150px; padding: 10px 10px 10px 25px;margin-left: 15px;background:url(img/album.png) no-repeat left center;float: left;text-decoration: none;color: #2e2e2e;}
+.isimenuAlbum a:hover {text-shadow: 0px 0px 3px #dcdcdc;color: #0066ff;background:url(img/album.png) no-repeat left center;}
+
+/*menu Buku Tamu*/
+.isimenuBuku a{width: 150px; padding: 10px 10px 10px 25px;margin-left: 15px;background:url(img/buku.png) no-repeat left center;float: left;text-decoration: none;color: #2e2e2e;}
+.isimenuBuku a:hover {text-shadow: 0px 0px 3px #dcdcdc;color: #0066ff;background:url(img/buku.png) no-repeat left center;}
+
+/*menu Menejemen Admin*/
+.isimenuAdmin a{width: 150px; padding: 10px 10px 10px 25px;margin-left: 15px;background:url(img/admin.png) no-repeat left center;float: left;text-decoration: none;color: #2e2e2e;}
+.isimenuAdmin a:hover {text-shadow: 0px 0px 3px #dcdcdc;color: #0066ff;background:url(img/admin.png) no-repeat left center;}
+
+/*menu Pengaturan*/
+.isimenuPengaturan a{width: 150px; padding: 10px 10px 10px 25px;margin-left: 15px;background:url(img/pengaturan.png) no-repeat left center;float: left;text-decoration: none;color: #2e2e2e;}
+.isimenuPengaturan a:hover {text-shadow: 0px 0px 3px #dcdcdc;color: #0066ff;background:url(img/pengaturan.png) no-repeat left center;}
+
+
+.aktif a{text-shadow: 0px 0px 3px #dcdcdc;color: #0066ff;text-decoration: underline;}
+/* id konten kanan */
+#kanan {width: 80%; min-width: 800px; float: left; -moz-border-radius: 8px;border: 0px solid #dcdcdc; display:block;}
+	/*Box penuh*/
+	.isikanan {
+		width: 95%; 
+		background: #fff url(img/top-title.jpg) repeat-x; 
+		margin: 2% 2% 2% 2%; 
+		float: left;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		border: 1px solid #dcdcdc;
+		padding: 0 0 30px 0;
+		}
+	/*judul box penuh*/
+	.judulisikanan {width: 98.5%;text-shadow: 0px 2px #fff;}
+		/*Menu pada bagian judul box*/
+		.menuhorisontal a{padding: 8px 12px 8px 12px; float: left; border-right: 1px solid #dcdcdc;text-decoration: none; color: #5b5b5b;}
+		.menuhorisontal a:hover{color:#0066ff; }
+		.menuhorisontalaktif a{padding: 8px 12px 8px 12px; float: left;background: #fff; color:#0066ff; border-right: 1px solid #dcdcdc; }
+		.menuhorisontalaktif-ujung a{padding: 8px 12px 8px 12px; float: left;background: #fff; color:#0066ff; border-right: 1px solid #dcdcdc;
+		-moz-border-radius-topleft: 4px;
+		-webkit-border-radius-top-left: 4px;}
+	/*Box setengah*/
+	.kanankecil {width: 46.5%;  background: #f5f5f5; margin: 2% 0 1% 2%; float: left;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		border: 1px solid #dcdcdc;
+		padding: 0 0 20px 0;
+		background: #fff url(img/top-title.jpg) repeat-x; }
+	.kanansedang {width: 66%; min-width: 460px; height: 200px; background: #f5f5f5; margin: 0 0 2% 2%; float: left;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		border: 1px solid #dcdcdc;
+		background: #fff url(img/top-title.jpg) repeat-x; }
+	.kanankecil2 {width: 273px; height: 200px; background: #f5f5f5; margin: 0 0 2% 2%; float: left;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		border: 1px solid #dcdcdc;
+		background: #fff url(img/top-title.jpg) repeat-x; }
+	.judulbox {width: 97%;text-shadow: 0px 2px #fff; padding: 7.5px; font-weight: bold; letter-spacing: 0.5px;}
+	
+	/*Class atas tabel, bahwah tabel atau bisa juga dipakai untuk kolom penjang*/
+	.atastabel {
+		width: 98%;
+		margin: 20px 10px 0 10px;
+		float: left;
+	}
+	
+	/*Class untuk tombol2 pada bagian tabel (sebelah kiri)*/
+		.tombol {
+			float: left;
+			margin: auto;
+			padding: 0;
+		}
+	
+	/*Class untuk form pencarian (sebelah kanan)*/
+		.cari {
+			float: right;
+			margin: auto;
+			padding: 0;
+		}
+	
+	/*komentar terbaru pada dashboard*/
+		.komen {padding: 10px 10px 0px 10px;}
+		
+	/*banner pada dashboard*/
+		.firefoxbanner {
+			padding: 10px 115px 10px 10px;
+			margin: 2% auto 2% auto;
+			width: 63%;
+			background: #e95b09 url(../images/Firefox.png) no-repeat right center;
+			height: 92px;
+			float: center;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border: 1px solid #dcdcdc;
+			color: #fff;
+			letter-spacing: 0.5px;
+		}
+		.firefoxbanner hr {border: 0; color: #fff; background-color: #fff; height: 1px;}
+		.firefoxbanner a {color: #000;}
+		
+		.chromebanner {
+			padding: 10px 115px 10px 10px;
+			margin: 2% auto 2% auto;
+			width: 63%;
+			background: #00a8ff url(../images/Chrome.png) no-repeat right center;
+			height: 92px;
+			float: center;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border: 1px solid #dcdcdc;
+			color: #fff;
+			letter-spacing: 0.5px;
+		}
+		.chromebanner hr {border: 0; color: #fff; background-color: #fff; height: 1px;}
+		.chromebanner a {color: #000;}
+		
+		.idbanner {
+			padding: 10px 75px 10px 10px;
+			margin: 2% auto 2% auto;
+			width: 71%;
+			background: #f5f5f5 url(../images/indonesiafull.png) no-repeat right center;
+			float: center;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border: 1px solid #dcdcdc;
+			color: #000;
+			letter-spacing: 0.5px;
+			text-shadow: 0px 1px #fff;
+		}
+		.idbanner hr {border: 0; color: #dcdcdc; background-color: #dcdcdc; height: 1px;}
+		
+		
+		.grassbanner {
+			padding: 10px;
+			margin: 2% auto 2% auto;
+			width: 84%;
+			background: url(img/grass.jpg);
+			float: center;
+			font-size: 30px;
+			text-align: center;
+			text-shadow: 0px 1px #000;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border: 1px solid #dcdcdc;
+			color: #fff;
+			letter-spacing: 0.5px;
+		}
+		.grassbanner a {color: #f6ff00;}
+		.grassbanner a:hover {color: #000; text-shadow: none;}
+
+/* kotak  pada tema*/
+.kotakTema {
+	width: 200px;
+	height: 300px;
+	float: left;
+	padding: 10px;
+	border: 1px dashed #dcdcdc;
+	margin: 10px 5px 10px 15px;
+	background: #f0f6ff;
+}
+	.previewTema {
+		width: 200px;
+		height: 150px;
+		background: #aeceff;
+		float: left;
+	}
+	.keteranganTema {
+		width: 200px;
+		margin: 15px 0 0 0;
+		height: 135px;
+		float: left;
+		text-shadow: 0px 1px #fff;
+		text-align: center;
+	}
+.kotakTemaAktif {
+	width: 90%;
+	padding: 15px;
+	border: 1px solid #aeceff;
+	height: 200px;
+	margin: 15px;
+	background: #f0f6ff;
+}
+	.isiKotakPreview {
+		width: 300px;
+		height: 200px;
+		float: left;
+		margin-right:15px;
+		background: #fff;
+	}
+	.isiKotakKeterangan {
+		height: 200px;
+		float: left;
+		margin-right:15px;
+		text-shadow: 0px 1px #fff;
+	}
+			
+
+			
+/*id untuk footer*/
+#footer {
+	width: 100%;
+	height: 25px;
+	padding: 15px 0 15px 0;
+	font-size: 11px;
+	background: url(img/top_repeat.jpg) repeat-x;
+	border-top: 1px solid #dcdcdc;
+}
+
+/* CSS untuk tampilan instalasi */
+#instalkotak {width: 600px;  margin: 2% auto 0 auto; float: center; text-align: left;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		border: 1px solid #dcdcdc;
+		padding: 0 0 20px 0;
+		background: #fff url(img/top-title.jpg) repeat-x; }
+		
+.boxInformasi {
+	width: 90%;
+	margin: 3%;
+	padding: 2%;
+	border: 1px solid #a7d7ff;
+	background: #e6f4ff;
+	float: left;
+	text-shadow: 0px 1px #fff;
+	text-align: center;
+}
+
+/* CSS untuk bagian dokumen aturan*/
+#aturanWrapper {width: 900px;  margin: 2% auto 2% auto; float: center; text-align: left;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		border: 1px solid #dcdcdc;
+		padding: 0 0 20px 0;
+		background: #fff url(img/top-title.jpg) repeat-x; }
+#aturanWrapper h4 {
+	font-size: 17px;
+	color: #5b5b5b;
+	font-family: Times New Roman;
+	margin: 20px;
+	padding: 10px 0 5px 0;
+	border-bottom: 1px solid #dcdcdc
+}
+#aturanWrapper p{
+	margin: 0px 20px 20px 20px;
+	padding: 0 0 0 10px;
+	line-height: 20px;
+}
+#aturanWrapper li{
+	padding: 10px 0 0 0;
+}	
+/* CSS untuk form login*/
+
+#kotakLogin {
+	width: 450px;
+	background:url(img/bg_pitih.jpg);
+	margin: 0 auto 0 auto;
+	float: center;
+	text-align: left;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-box-shadow: 0px 0px 10px #a5a5a5;
+	-webkit-box-shadow: 0px 0px 10px #a5a5a5;
+	border: 1px solid #a5a5a5;
+	padding: 20 0 20px 0;
+}
+input.login {
+	padding: 8px;
+	margin: 0;
+	background: #fff;
+	border: 1px solid #dcdcdc;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	width: 138px;
+	font-weight: bold;
+}
+.gembok {
+	padding: 8px 8px 8px 20px;
+	background:#0066ff url(../images/unlock.jpg) no-repeat left center;
+	border: 1px solid #dcdcdc;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	font-weight: bold;
+	cursor: pointer;
+	color: #5b5b5b;
+	text-shadow: 0px 1px #fff;
+}
+.gembok:hover {
+	color: #000;
+}
+.gembok:active {
+	border: 1px solid #5b5b5b;
+}

@@ -1,0 +1,45 @@
+@import url(tabel.css);
+@import url(form.css);
+
+
+/* CSS untuk Login */
+#kotakLogin {
+	width: 450px;
+	background:url(img/bg_pitih.jpg);
+	margin: 0 auto 0 auto;
+	float: center;
+	text-align: left;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-box-shadow: 0px 0px 10px #a5a5a5;
+	-webkit-box-shadow: 0px 0px 10px #a5a5a5;
+	border: 1px solid #a5a5a5;
+	padding: 20 0 20px 0;
+}
+input.login {
+	padding: 8px;
+	margin: 0;
+	background: #fff;
+	border: 1px solid #dcdcdc;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	width: 138px;
+	font-weight: bold;
+}
+.gembok {
+	padding: 8px 8px 8px 20px;
+	background:#0066ff url(../images/unlock.jpg) no-repeat left center;
+	border: 1px solid #dcdcdc;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	font-weight: bold;
+	cursor: pointer;
+	color: #5b5b5b;
+	text-shadow: 0px 1px #fff;
+}
+.gembok:hover {
+	color: #000;
+}
+.gembok:active {
+	border: 1px solid #5b5b5b;
+}
